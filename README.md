@@ -59,6 +59,6 @@ pip install -e .
 ## openai, gemini
 openai는 강의와 동일하되 모델만 변경
 
-gemini는 `Prompt Chaining`만 동일하고, 나머지 예제는 다름 (LangGraph 예제를 제미나이에 의해 적용)
+gemini는 LangGraph 예제를 제미나이에 의해 적용
 
 사용량 제한 때문에 4번 부터는 openai 유틸로 테스트 후, gemini로 대체

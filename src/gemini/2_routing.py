@@ -1,5 +1,9 @@
 from utils import llm_call
 
+"""
+    [LangGraph 예제] https://github.com/kdk1026/langgraph_study_02/blob/main/src/study_03.py
+"""
+
 # 전문가 함수들 (Expert Functions)
 def billing_expert(user_prompt):
     print("--- [Billing Expert] 결제 전문가가 답변 작성 중 ---")

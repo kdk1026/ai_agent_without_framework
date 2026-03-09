@@ -5,6 +5,9 @@ from typing import Optional, TypedDict
 
 from gemini.utils import llm_call_async
 
+"""
+    [LangGraph 예제] https://github.com/kdk1026/langgraph_study_02/blob/main/src/study_02.py
+"""
 
 # 1. 상태(State) 정의: 각 작업의 결과물을 담을 그릇
 class WriterState(TypedDict):

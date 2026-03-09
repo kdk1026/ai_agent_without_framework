@@ -5,6 +5,9 @@ from pydantic import BaseModel
 
 from utils import llm_call, llm_call_async
 
+"""
+    [LangGraph 예제] https://github.com/kdk1026/langgraph_study_02/blob/main/src/study_05_1.py
+"""
 
 ## 1. 데이터 모델 정의
 class Section(BaseModel):
