@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai_agent_study"
+version = "0.1.0"
+description = "AI 에이전트 학습"
+
+[tool.setuptools.packages.find]
+where = ["src"]
