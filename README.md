@@ -1,7 +1,7 @@
 # Python AI Study
 #### [강의](https://youtu.be/3wk45Ow3m3M?si=A5QbPd6CdYWMEMYr)
 
-## 5강 라이브러리
+## 라이브러리
 ```
 pip install openai google-genai python-dotenv
 ```
