@@ -3,7 +3,7 @@ import asyncio
 # 1. 상태(State) 정의: 각 노드가 공유하고 업데이트할 데이터 구조
 from typing import Optional, TypedDict
 
-from gemini.utils import llm_call_async
+from .utils import llm_call_async
 
 """
     [LangGraph 예제] https://github.com/kdk1026/langgraph_study_02/blob/main/src/study_02.py

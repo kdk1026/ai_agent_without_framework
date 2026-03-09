@@ -1,6 +1,6 @@
 import asyncio
 import json
-from utils import llm_call, llm_call_async
+from .utils import llm_call, llm_call_async
 
 DEFAULT_MODEL = "gpt-5-nano"
 

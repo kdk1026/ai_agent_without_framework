@@ -1,5 +1,5 @@
 import json
-from utils import llm_call
+from .utils import llm_call
 
 """
     [LangGraph 예제] https://github.com/kdk1026/langgraph_study_02/blob/main/src/study_04.py

@@ -1,6 +1,6 @@
 import asyncio
 
-from openai.utils import llm_call_async
+from .utils import llm_call_async
 
 
 async def run_llm_parallel(prompt_details):

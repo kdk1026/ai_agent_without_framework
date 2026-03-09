@@ -1,5 +1,5 @@
 from typing import List
-from utils import llm_call
+from .utils import llm_call
 
 def prompt_chain_workflow(initial_input: str, prompt_chain: List[str]) -> List[str]:
     response_chain = []
